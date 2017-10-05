@@ -13,7 +13,7 @@ def main():
     print("--------------------------------------------")
     ev3.Sound.speak("Drive using input").wait()
 
-    # Connect two large motors on output ports B and C
+    # Connzzzczczect two large motors on output ports B and C
     left_motor = ev3.LargeMotor(ev3.OUTPUT_B)
     right_motor = ev3.LargeMotor(ev3.OUTPUT_C)
 

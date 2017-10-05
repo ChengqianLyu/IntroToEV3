@@ -9,11 +9,19 @@ Authors: Dave Fisher and Chengqian Lyu HERE.
 
 
 # ------------------------------------------------------------------
-# TODO: 2. Make the robot say "David Fisher can write E V 3 programs"
+# DONE: 2. Make the robot say "David Fisher can write E V 3 programs"
 #   But of course use YOUR NAME.
 #
-#   Use the samples to figure out the necessary lines of code.
+#   Use the samples to figure out the necessary linesou have the tools to do FAR more.
+# ----------------------------------------------- of code.
 #     Hint: This program can be done in as little as 2 lines of code (1 import, 1 function call)
 #   Feel free to run it, change it, and run it again with any message you like.
-#   This program is simple, but if you can do this, then you have the tools to do FAR more.
-# ------------------------------------------------------------------
+#   This program is simple, but if you can do this, then y-------------------
+
+import ev3dev.ev3 as ev3
+
+def main():
+    print('hello')
+    ev3.Sound.speak('Chengqian Lyu')
+
+main()
